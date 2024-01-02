@@ -6,7 +6,7 @@ if number < 0:
     lastdig = -(lastdig)
 str_val = "Last digit of {} is {}".format(number, lastdig)
 if lastdig > 5:
-    print(f"{str_val}and is greater than 5")
+    print(f"{str_val} and is greater than 5")
 elif lastdig == 0:
     print(f"{str_val} and is 0")
 else:
