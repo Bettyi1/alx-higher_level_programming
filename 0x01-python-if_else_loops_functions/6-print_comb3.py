@@ -5,5 +5,3 @@ for val1 in range(0, 10):
             print("{} {}".format(val1, val2))
         else:
             print("{} {}, ".format(val1, val2), end='')
-
-
